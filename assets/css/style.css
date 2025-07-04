@@ -39,6 +39,7 @@ h2{
     margin-bottom: 2rem;
 }
 
+
 /* Buttons */
 
 .custom-button-filled{
@@ -92,6 +93,24 @@ h2{
     margin-bottom: 1.5rem;
 }
 
+
+
+/* Events section */
+
+#events .card{
+    border: none;
+}
+
+#events .table *{
+    background-color: transparent;
+    color: black;
+}
+
+p mark{
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Games Section */
 
 #fav-games .card,
@@ -110,6 +129,7 @@ h2{
     background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
+  
 }
 
 #contact h2{
@@ -185,3 +205,10 @@ h2{
         min-height: 195px;
     }
 }
+
+@media screen and (max-width: 320px){
+#events .table {
+  font-size:x-small;
+}
+}
+    
