@@ -112,6 +112,15 @@ h2{
 #contact .social-links i:hover{
     color: var(--secondary-color)
 }
+
+/* Footer  / Opening times  */
+ /* wildcard selector overrides library styles  */
+#contact .table-dark *{
+    background-color: transparent;
+}
+
+
+
 /* grid visualisation CSS for testing  */
 /* .container,
 .row{
