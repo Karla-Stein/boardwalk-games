@@ -42,15 +42,18 @@
   <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg fixed-top"
+      data-bs-theme="dark"
+    >
       <div class="container">
         <!-- replace text with logo and point to index.html -->
         <a class="navbar-brand" href="game-library.html">
           <img
-          class="logo"
+            class="logo"
             src="assets/images/logo-sm-white.png"
             alt="Brandlogo"
-           
           />
         </a>
 
@@ -108,7 +111,6 @@
             member of our team will call you back as soon as possible to confirm
             your booking and answer any questions you may have.
           </p>
-         
         </div>
       </div>
     </header>
@@ -122,20 +124,43 @@
             <form action="success.html" method="get">
               <div class="row">
                 <div class="col-12 col-lg-6 mb-3">
-                  <label for="name" class="form-label" >Name</label>
-                  <input class="form-control" id="name" name="name" type="text" required/>
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                  />
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input class="form-control" id="email" name="email" type="email" required/>
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                  />
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="phone" class="form-label">Phone number</label>
-                  <input class="form-control" id="phone" name="phone" type="number" required/>
+                  <input
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    type="number"
+                    required
+                  />
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="event-type" class="form-label">Event type</label>
-                  <select id="event-type" class="form-select" name="event-type" required>
+                  <select
+                    id="event-type"
+                    class="form-select"
+                    name="event-type"
+                    required
+                  >
                     <!-- value="" marks the select option as an invalid choice, threfore throws a warning if no TRUE value option selected -->
                     <option value="" selected>Select</option>
                     <option value="regular-play">Reserve a table</option>
@@ -157,7 +182,9 @@
                 </div>
               </div>
 
-              <button type="submit" class="btn custom-button-outline">Submit</button>
+              <button type="submit" class="btn custom-button-outline">
+                Submit
+              </button>
             </form>
           </div>
         </div>
@@ -213,36 +240,36 @@
           <!-- Opening times -->
           <div class="col-12 col-md-6 col-xl-4">
             <h3 class="sub-heading-color">Opening times</h3>
-           <table class="table table-dark">
-            <thead>
-              <tr>
-                <th scope="col">Day</th>
-                <th scope="col">Open</th>
-                <th scope="col">Close</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Mon</th>
-                <td colspan="2">Closed</td>
-              </tr>
-              <tr>
-                <th scope="row">Tue - Thur</th>
-                <td>11am</td>
-                <td>11pm</td>
-              </tr>
-              <tr>
-                <th scope="row">Fri - Sat</th>
-                <td>11am</td>
-                <td>12am</td>
-              </tr>
-              <tr>
-                <th scope="row">Sun</th>
-                <td>12pm</td>
-                <td>7pm</td>
-              </tr>
-            </tbody>
-          </table>
+            <table class="table table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Day</th>
+                  <th scope="col">Open</th>
+                  <th scope="col">Close</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mon</th>
+                  <td colspan="2">Closed</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tue - Thur</th>
+                  <td>11am</td>
+                  <td>11pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fri - Sat</th>
+                  <td>11am</td>
+                  <td>12am</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sun</th>
+                  <td>12pm</td>
+                  <td>7pm</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
